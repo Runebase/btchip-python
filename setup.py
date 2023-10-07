@@ -17,7 +17,7 @@ setup(
     packages=find_packages(),
     install_requires=['hidapi>=0.7.99'],
     extras_require = {
-	'smartcard': [ 'python-pyscard>=1.6.12-4build1', 'ecdsa>=0.9' ]
+	    'smartcard': ['python-pyscard>=1.6.13', 'ecdsa>=0.9']
     },
     include_package_data=True,
     zip_safe=False,
