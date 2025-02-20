@@ -7,13 +7,13 @@ from os.path import dirname, join
 here = dirname(__file__)
 import btchip
 setup(
-    name='btchip-qtum',
+    name='btchip-runebase',
     version=btchip.__version__,
     author='BTChip',
     author_email='hello@ledger.fr',
-    description='Python library to communicate with Ledger Nano dongle for Qtum',
+    description='Python library to communicate with Ledger Nano dongle for Runebase',
     long_description=open(join(here, 'README.md')).read(),
-    url='https://github.com/qtumproject/btchip-python',
+    url='https://github.com/runebase/btchip-python',
     packages=find_packages(),
     install_requires=['hidapi>=0.7.99'],
     extras_require = {

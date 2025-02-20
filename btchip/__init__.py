@@ -18,5 +18,5 @@
 """
 __version__ = "0.1.31"
 
-QTUM_OPSENDER_SUPPORT = True
+RUNEBASE_OPSENDER_SUPPORT = True
 

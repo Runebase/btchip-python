@@ -6,7 +6,7 @@ Python communication library for Ledger Hardware Wallet products
 Requirements
 -------------
 
-This API is available on pip - install with pip install btchip-qtum 
+This API is available on pip - install with pip install btchip-runebase 
 
 Building on a Unix platform requires libusb-1.0-0-dev and libudev-dev installed previously
 
